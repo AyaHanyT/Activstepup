@@ -50,102 +50,120 @@
 
 
     <main>
-        <section class="packages">
+
+        <section class="payment">
             <div class="container">
-                <div class="title">
-                    <h2>الباقات</h2>
-                    <span> جرب شعور الحرية
-                        <img src="assets/img/sparkel.png">
-                    </span>
+                <div class="text-center mb-4">
+                    <h2>
+                        تأكيد اشتراك في الباقة الذهبية
+                    </h2>
                 </div>
-
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-11">
-                        <div class="pack-card">
-                            <div class="white-bx">
-                                <h5>باقات الشركات - الفضية</h5>
-                                <ul>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                </ul>
-                                <div class="card-footer">
-                                    <h5>100 ريال</h5>
-                                    <a class="btn btn-primary" href="package-page.html">
-                                        المزيد
-                                    </a>
+                <div class="row">
+                    
+                    <div class="col-lg-6 col-md-8 col-sm-10 col-11">
+                        <div class="white-card">
+                            <form class="row">
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">الاسم</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="الأسم">
                                 </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/package-img.png">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-11">
-                        <div class="pack-card golden">
-                            <div class="white-bx">
-                                <h5>باقات الشركات - الذهبية</h5>
-                                <ul>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                </ul>
-                                <div class="card-footer">
-                                    <h5>100 ريال</h5>
-                                    <a class="btn btn-primary" href="package-page.html">
-                                        المزيد
-                                    </a>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">اسم الشركة</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="اسم الشركة">
                                 </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/package-img-2.png">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-11">
-                        <div class="pack-card">
-                            <div class="white-bx">
-                                <h5>باقات الشركات - الفضية</h5>
-                                <ul>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                    <li>
-                                        ميزه 1
-                                    </li>
-                                </ul>
-                                <div class="card-footer">
-                                    <h5>100 ريال</h5>
-                                    <a class="btn btn-primary" href="package-page.html">
-                                        المزيد
-                                    </a>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputNumber" class="form-label">رقم الجوال</label>
+                                    <input type="tel" class="form-control" id="inputNumber" placeholder="05xxxxxxx">
                                 </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/package-img-3.png">
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputEmail" class="form-label">البريد الإلكتروني</label>
+                                    <input type="email" class="form-control" id="inputEmail"
+                                        placeholder="البريد الإلكتروني">
+                                </div>
+
+
+                                <div class="sub">
+                                    <img src="assets/img/highlight.png">
+                                    <h3>الدفع</h3>
+                                    <div class="price">
+                                        <p>الاشتراك</p>
+                                        <p class="text-primary">
+                                            50 ريال /شهري
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">الاسم الكامل المدون على البطاقة</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="YOUR FULL NAME">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">رقم البطاقة</label>
+                                    <input type="tel" class="form-control" id="inputName"
+                                        placeholder="XXXX-XXXX-XXXX-XXXX">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">تاريخ الانتهاء</label>
+                                    <input type="date" class="form-control" id="inputName" placeholder="mm/yy">
+                                </div>
+                                <div class="col-lg-6 col-md-6 mb-3">
+                                    <label for="inputName" class="form-label">CVV</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="XXX">
+                                </div>
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button class="btn btn-primary" data-bs-toggle="modal"
+                                        data-bs-target="#success-payment">
+                                        الدفع والاشتراك
+                                    </button>
+                                </div>
+                            </form>
                         </div>
                     </div>
 
                 </div>
             </div>
+
         </section>
+
     </main>
+
+
+    <div class="modal fade success-payment" id="success-payment" tabindex="-1" aria-labelledby="success-paymentLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class=" modal-content">
+                <img src="assets/img/check.png" class="absolute-img">
+                <div class="modal-header">
+                    <h4>
+                        تمت عملية الدفع بنجاح
+                    </h4>
+                </div>
+
+                <div class="modal-body">
+                    <p>
+                        تم الاشتراك بنجاح! يمكنك ان تتابع اشتراكك من خلال لوحة التحكم
+                        قم بتسجيل الدخول للوصول للوحة التحكم
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#login" class="btn btn-primary">
+                        تسجيل الدخول
+                    </a>
+
+                    <a href="#" class="link" data-bs-dismiss="modal">
+                        ليس الآن
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="bordered">
         <img src="assets/img/moving-2.png" alt="360-degree image" class="image">
     </div>
+
 
     <footer>
         <div class="container">

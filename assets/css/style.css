@@ -16,7 +16,8 @@
 
 @font-face {
   font-family: 'behdad';
-  src: url(../font/Behdad-Regular.otf);
+  src: url(../font/Behdad-Regular.otf),
+      url(../font/Behdad-Regular.ttf);
 }
 
 html {

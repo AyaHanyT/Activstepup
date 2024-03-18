@@ -350,14 +350,31 @@ body section:first-of-type {
   align-items: center;
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+}
+
+.swiper-slide img.main-swiper-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .hero .title {
   font-family: var(--back-font);
   color: var(--primary-color);
 }
 
 .hero .title h1 {
-  font-size: 95px;
-  line-height: initial;
+  font-size: 90px;
+  text-align: right;
+  margin-bottom: 2rem;
 }
 
 .hero .pos-relative {
@@ -371,9 +388,9 @@ body section:first-of-type {
 
 .hero .pos-relative .absolute-img {
   position: absolute;
-  height: 127px;
-  left: 15px;
-  top: -27px;
+  height: 87px;
+  left: 30px;
+  top: -8px;
 }
 
 .bordered {

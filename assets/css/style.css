@@ -24,18 +24,17 @@
 html {
   scroll-behavior: smooth;
 }
-
 :root {
   --primary-color: #F37424;
   --font-color: #494949;
   --gray: #d9d9d96e;
   --btn-shadow: #73472b33;
   --icon-shadow: #d9d9d947;
-  --p-font: 'behdad';
-  --navitem-font: 'bahij-light';
-  --btn-font: 'bahij-semibold';
-  --title-font: 'bahij-semibold';
-  --back-font: 'symbio';
+  --p-font: 'Inter';
+  --navitem-font: 'HelveticaNeueLT-55';
+  --btn-font: 'HelveticaNeueLT-55';
+  --title-font: 'HelveticaNeueLT-55';
+  --back-font: 'HelveticaNeueLT';
 }
 
 body {

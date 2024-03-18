@@ -1,23 +1,24 @@
 @font-face {
-  font-family: 'symbio';
-  src: url(../font/symbio-arlt/ArbFONTS-symbio-rtl.ttf);
+  font-family: 'HelveticaNeueLT';
+  src: url(../font/HelveticaNeueLT\ Arabic\ 75\ Bold.ttf);
 }
 
 @font-face {
-  font-family: 'bahij-light';
-  src: url(../font/Bahij/Bahij_TheSansArabic-SemiLight.ttf);
+  font-family: 'HelveticaNeueLT-55';
+  /* src: url(../font/Bahij/Bahij_TheSansArabic-SemiLight.ttf); */
+  src: url(../font/HelveticaNeueLT\ Arabic\ 55.ttf);
 }
 
 @font-face {
-  font-family: 'bahij-semibold';
-  src: url(../font/Bahij/Bahij_TheSansArabic-SemiBold.ttf);
+  font-family: 'HelveticaNeueLT-55';
+  /* src: url(../font/Bahij/Bahij_TheSansArabic-SemiBold.ttf); */
+  src: url(../font/HelveticaNeueLT\ Arabic\ 55.ttf);
 }
 
-
 @font-face {
-  font-family: 'behdad';
-  src: url(../font/Behdad-Regular.otf),
-    url(../font/Behdad-Regular.ttf);
+  font-family: 'Inter';
+  /* src: url(../font/Behdad-Regular.otf), url(../font/Behdad-Regular.ttf); */
+  src: url(../font/Inter-Regular.ttf);
 }
 
 html {
